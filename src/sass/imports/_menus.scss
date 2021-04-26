@@ -1,0 +1,15 @@
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.5;
+
+  &:not(.menu-button) {
+    font-size: 0.77778rem;
+  }
+}
